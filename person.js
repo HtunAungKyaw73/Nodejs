@@ -1,0 +1,15 @@
+const person = {
+    name : 'Htun Aung Kyaw',
+    age : 21
+}
+
+class Person{
+    constructor(name,age){
+        this.name = name;
+        this.age = age;
+    }
+    greeting(){
+        console.log('My name is '+this.name+' I am '+ this.age);
+    }
+}
+module.exports= Person;
