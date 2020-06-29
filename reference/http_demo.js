@@ -1,10 +1,8 @@
 const http = require('http');
 
 // Create server object
-http
-  .createServer((req, res) => {
+http.createServer((req, res) => {
     // Write response
     res.write('Hello World');
     res.end();
-  })
-  .listen(5000, () => console.log('Server running...'));
+  }).listen(5002, () => console.log('Server running...'));
